@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <title>VEGAMON</title>
+    </head>
+    <body>
+        <div class="heading">
+            <h1 class="h2" style="text-align: center;">VeGaMoN</h1>
+        </div>
+        <marquee behavior="slide" loop="1" scrollamount="70" >
+        <img src="Images and vidoes/vegamon-1.jpg" alt="munnar-img1" width="500px" height="500px">
+        <img src="Images and vidoes/vegamon-2.jpg" alt="munnar-img2" width="500px" height="500px">
+        <img src="Images and vidoes/vegamon-3.jpg" alt="munnar-img3" width="496px" height="500px">
+        </marquee>
+
+        <br>
+        <br>
+
+        <h1 class="ab"><u><i>ABOUT VEGAMON</i></u></h1>
+        <ul class="ab">
+            <li>Vagamon is a hill station located on the border of Kottayam and Idukki districts, at about 1,100 meters above sea level.</li>
+            <li>The scenery features rolling grasslands/meadows, pine forests, tea plantations, winding valleys and meadows.</li>
+            <li>It is well known for eco-tourism and adventure-activities such as trekking, rock climbing, paragliding and mountaineering.</li>
+            <li>Vagamon also has religious/spiritual significance: there are three hills named Thangal Hill, Murugan Hill, and Kurisumala, which are important for different faiths.</li>
+            <li>The Vagamon Glass Bridge, opened in 2023, is a prominent attraction—it's a cantilever glass bridge built with five layers of thick glass, steel-supported.</li>
+            <li>The climate is cool and pleasant; summers see mild temperatures, winters are colder, and monsoon season brings lush greenery and frequent rains.</li>
+            <li>It's about 64 km from Kottayam; the nearest major railway station is Kottayam, and the nearest airport is Kochi International Airport.</li>
+        </ul>
+
+        <br>
+        <br>
+
+        <table border="1">
+            <tr>
+                <th>Day</th><th>Visiting places</th><th>Food</th>
+            </tr>
+
+            <tr>
+                <th>Day-1</th>
+                <td class="a">
+                    <b>Morning:</b> Arrival, hotel check-in; visit Vagamon Meadows and Pine Forest <br>
+                    <b>Midday:</b> Thangal Para viewpoint; stroll through tea plantations <br>
+                    <b>Afternoon:</b> Vagamon Lake boating; explore Orchid Garden <br>
+                    <b>Evening:</b> Sunset view from Moon Mala; relax at hotel or local meadows
+                </td>
+                <td class="a">
+                    <b>Morning:</b> Local Kerala breakfast – idli/dosa/appam etc. <br>
+                    <b>Midday:</b> Lunch at a café near Meadows or in town – local curries or veg options <br>
+                    <b>Afternoon:</b> Tea / snacks by the lake or at garden café <br>
+                    <b>Evening:</b> Dinner in Vagamon – try porotta with curry, traditional Kerala meals
+                </td>
+            </tr>
+
+            <tr>
+                <th>Day-2</th>
+                <td class="a">
+                    <b>Morning:</b> Trek to Kurisumala Ashram; explore Barren Hills <br>
+                    <b>Midday:</b> Suicide Point / Paragliding activity <br>
+                    <b>Afternoon:</b> Uluppuni Forest trek; Palozhukum Para waterfalls (if in season) <br>
+                    <b>Evening:</b> Evening walk in Pine Valley; watch sunset from Murugan Mala
+                </td>
+                <td class="a">
+                    <b>Morning:</b> Breakfast at hotel or resort <br>
+                    <b>Midday:</b> Picnic lunch or local homely eatery near trails <br>
+                    <b>Afternoon:</b> Tea & snacks in forest café or roadside stall <br>
+                    <b>Evening:</b> Dinner – non-veg or vegetarian, local flavors
+                </td>
+            </tr>
+
+            <tr>
+                <th>Day-3</th>
+                <td class="a">
+                    <b>Morning:</b> Visit Vagamon Adventure Park & Glass Bridge <br>
+                    <b>Midday:</b> Local market shopping; visit Pullikkanam Tea Estate <br>
+                    <b>Afternoon:</b> Relax in meadows; light walks or photography spots <br>
+                    <b>Evening:</b> Pack up; depart from Vagamon
+                </td>
+                <td class="a">
+                    <b>Morning:</b> Breakfast at café or resort <br>
+                    <b>Midday:</b> Lunch at adventure park or tea estate café <br>
+                    <b>Afternoon:</b> Tea or light snacks <br>
+                    <b>Evening:</b> Light meal depending on travel time
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <div align="center">
+            <button onclick="window.location.href='book.html'" id="myBtn">
+            BOOK NOW
+        </button>
+        </div>
+        <style>
+        button{
+            margin-top: 30px;
+            background-color: red;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        li{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        button:active{
+        box-shadow: none;
+        }
+
+        .h2{
+            font-size: 50px;
+            padding-top: 15px;
+        }
+
+        .heading{
+            color: white;
+            background-color: black;
+            height: 100px;
+            margin-bottom: 25px;
+        }
+
+        *{
+            margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .ab{
+            margin-left: 30px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 1400px;
+            margin-left: 40px;
+        }
+
+        th,td{
+            border: 2px solid black;
+            font-size: 25px;
+        }
+
+        .a{
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        </style>
+        <script>
+            document.getElementById("myBtn").addEventListener("click", function() {
+            window.location.href = "book.html";
+            });
+        </script>
+    </body>
+</html>
